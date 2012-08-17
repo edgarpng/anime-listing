@@ -12,7 +12,7 @@
 
 ActiveRecord::Schema.define(:version => 20120816050538) do
 
-  create_table "animes", :force => true do |t|
+  create_table "anime", :force => true do |t|
     t.string   "title"
     t.integer  "rating"
     t.string   "image"

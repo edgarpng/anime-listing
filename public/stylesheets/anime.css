@@ -1,0 +1,25 @@
+body{
+	background-color: lavender !important;
+	margin: ;
+}
+.btn-primary{
+	display: block !important;
+}
+
+table{
+	background-color: white !important;
+}
+
+#header{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	overflow: auto;
+}
+
+#header h1{
+	float: left;
+}
+
+#header .btn{
+	float: right;
+}

@@ -1,0 +1,5 @@
+#header
+	%h1 All anime:
+	=link_to "New Anime", new_anime_path, :class => 'btn btn-success'
+%table.table.table-bordered.table-sriped
+	= render @anime_listing

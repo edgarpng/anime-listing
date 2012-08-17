@@ -1,6 +1,6 @@
 class CreateAnimes < ActiveRecord::Migration
   def self.up
-    create_table :animes do |t|
+    create_table :anime do |t|
       t.string :title
       t.integer :rating
       t.string :image
@@ -11,6 +11,6 @@ class CreateAnimes < ActiveRecord::Migration
   end
 
   def self.down
-    drop_table :animes
+    drop_table :anime
   end
 end

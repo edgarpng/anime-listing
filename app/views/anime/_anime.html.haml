@@ -1,0 +1,7 @@
+%tr
+	%td
+		%h3= anime.title
+		%img{:src => anime.image, :width => '180', :width => '100'}
+		%p= anime.summary
+		= link_to 'Edit', edit_anime_path(anime), :class => 'btn'
+		= link_to 'Delete', anime, :method => :delete, :class => 'btn'
